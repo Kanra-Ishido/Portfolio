@@ -1,0 +1,13 @@
+.Works_Contact {
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+
+.Works_Contact_Body {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 50%;
+}

@@ -1,0 +1,32 @@
+.Header {
+    background-color: #1c2c4d;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    color: white;
+    position: fixed;
+    width: 100%;
+    height: 10%;
+}   
+
+.Header_Title {
+    font-size: 24px;
+    padding-left: 20px;
+}
+
+.Header_Item li {
+    list-style: none;
+    display: inline-block;
+    margin-right: 16px;
+    padding-right: 20px;
+}
+
+.Header_Item li p {
+    color: white;
+    transition: all 0.3s ease;
+}
+
+.Header_Item li p:hover {
+    color: #61dafb;
+}

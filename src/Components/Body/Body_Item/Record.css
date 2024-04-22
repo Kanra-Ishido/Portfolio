@@ -1,0 +1,63 @@
+.Record {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    color: black;
+}
+
+.Record_Title {
+    width: 100%;
+    height: 15%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.Record_Title h1 {
+    font-size: 3em;
+}
+
+.Record_Main {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+}
+
+.Record_Main_Items {
+    width: 100%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    margin-left: calc(2% - (30px));
+    margin-right: 2%;
+}
+
+.Record_Main_Items_Item {
+    width: 28%;
+    height: 86%;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2%;
+    margin-right: 2%;
+    border: 10px ridge #2593d3;
+}
+
+.Record_Main_Items_Item h2 {
+    font-size: 1.1em;
+    margin-top: 0%;
+    margin-bottom: -20px;
+    text-align: center;
+}
+
+.Record_Main_Items_Item h3 {
+    font-size: 1.1em;
+    margin-bottom: -20px;
+    text-align: center;
+}
+
+.Record_Main_Items_Item p {
+    font-size: 1em;
+}

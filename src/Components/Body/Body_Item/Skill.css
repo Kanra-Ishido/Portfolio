@@ -1,0 +1,44 @@
+.Skill {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    color: white;
+}
+
+.Skill_Title {
+    width: 100%;
+    height: 15%;
+    margin-top: 5%;
+    text-align: center;
+}
+
+.Skill_Title h1 {
+    font-size: 3em;
+}
+
+.Skill_Main {
+    width: 100%;
+    height: 75%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 5%;
+    text-align: center;
+}
+
+.Skill_Main_Item {
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Skill_Main_Item h2 {
+    font-size: 1.5em;
+    margin-bottom: -15px;
+}
+
+.Skill_Main_Item p {
+    font-size: 1em;
+}
