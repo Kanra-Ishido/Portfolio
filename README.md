@@ -1,3 +1,8 @@
+# 自己紹介ポートフォリオサイト
+## Reactにて作成
+## 「https://portfolio-sigma-indol-61.vercel.app/」このURLにて閲覧可能
+ 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
