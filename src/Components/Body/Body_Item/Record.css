@@ -3,14 +3,16 @@
     flex-direction: column;
     width: 100%;
     height: 100%;
-    background-color: white;
+    background: -moz-linear-gradient(top, #F6F6F6, white 5%, white 95%, #F6F6F6);
+    background: -webkit-linear-gradient(top, #F6F6F6, white 5%, white 95%, #F6F6F6);
+    background: linear-gradient(to bottom, #F6F6F6, white 5%, white 95%, #F6F6F6);
     color: black;
 }
 
 .Record_Title {
     width: 100%;
-    height: 15%;
-    margin-top: 5%;
+    height: 15vh;
+    margin-top: 10vh;
     text-align: center;
 }
 
@@ -19,11 +21,11 @@
 }
 
 .Record_Main {
-    width: 100%;
-    height: 75%;
+    width: 95%;
+    height: 160vh;
     display: flex;
     flex-direction: column;
-    margin-bottom: 5%;
+    margin-left: 2.5%;
 }
 
 .Record_Main_Items {
@@ -31,33 +33,69 @@
     height: 50%;
     display: flex;
     flex-direction: row;
-    margin-left: calc(2% - (30px));
     margin-right: 2%;
 }
 
 .Record_Main_Items_Item {
-    width: 28%;
+    width: calc(88% / 3);
     height: 86%;
     display: flex;
     flex-direction: column;
+    margin-top: 2%;
     margin-left: 2%;
     margin-right: 2%;
-    border: 10px ridge #2593d3;
+    box-shadow: 0 10px 25px 0 #CCCCCC;
 }
 
-.Record_Main_Items_Item h2 {
-    font-size: 1.1em;
-    margin-top: 0%;
-    margin-bottom: -20px;
-    text-align: center;
+.Record_Main_Items_Item_img {
+    width: 92%;
+    height: 44%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 4%;
+    margin-top: 4%;
+    margin-bottom: 2%;
 }
 
-.Record_Main_Items_Item h3 {
-    font-size: 1.1em;
-    margin-bottom: -20px;
-    text-align: center;
+.Record_Main_Items_Item_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
-.Record_Main_Items_Item p {
+.Record_Main_Items_Item_text {
+    width: 90%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.Record_Main_Items_Item_text h2 {
     font-size: 1em;
+    margin: 0;
+    text-align: center;
+    color: #555555;
+}
+
+.Record_Main_Items_Item_text h1 {
+    font-size: 1.5em;
+    margin: 0 0 2% 0;
+    text-align: center;
+}
+
+.Record_Main_Items_Item_text h3 {
+    font-size: 0.85em;
+    margin: 0;
+    text-align: left;
+    color: #555555;
+}
+
+.Record_Main_Items_Item_text p {
+    font-size: 0.85em;
+    margin: 0;
+    color: #444444;
 }

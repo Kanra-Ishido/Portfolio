@@ -1,5 +1,8 @@
 import React from 'react'
 import './Contact.css'
+import img_1 from './Images/Contact_Img_1.png'
+import img_2 from './Images/Contact_Img_2.png'
+import img_3 from './Images/Contact_Img_3.png'
 
 const Contact = () => {
   const handleGmailClick = () => {
@@ -13,28 +16,42 @@ const Contact = () => {
   };
 
   return (
-    <div color='Contact'>
+    <div className='Contact'>
       <div className='Contact_Title'>
         <h1>お問い合わせ</h1>
       </div>
       <div className='Contact_Main'>
-        <div className='Contact_Main_Item'>
-          <button onClick={handleGmailClick}>
-            Gmail<br />
-            kanra.work[At]gmail.com
-          </button>
-        </div>
-        <div className='Contact_Main_Item'>
-          <button onClick={handleWantedlyClick}>
-            Wantedly<br />
-            https://www.wantedly.com/[Id]/kanra_ishido
-          </button>
-        </div>
-        <div className='Contact_Main_Item'>
-          <button onClick={handleXClick}>
-            X<br />
-            https://X.com/[At]KanraNo_Address
-          </button>
+        <div className='Contact_Main_Items'>
+          <div className='Contact_Main_Items_Item'>
+            <button onClick={handleGmailClick}>
+              <div className='Contact_Main_Items_Item_img'>
+                <img src={img_1}></img>
+              </div>
+              <div className='Contact_Main_Items_Item_text'>
+                <p>Gmail</p>
+              </div>
+            </button>
+          </div>
+          <div className='Contact_Main_Items_Item'>
+            <button onClick={handleWantedlyClick}>
+              <div className='Contact_Main_Items_Item_img'>
+                <img src={img_2}></img>
+              </div>
+              <div className='Contact_Main_Items_Item_text'>
+                <p>Wantedly</p>
+              </div>
+            </button>
+          </div>
+          <div className='Contact_Main_Items_Item'>
+            <button onClick={handleXClick}>
+              <div className='Contact_Main_Items_Item_img'>
+                <img src={img_3}></img>
+              </div>
+              <div className='Contact_Main_Items_Item_text'>
+                <p>X</p>
+              </div>
+            </button>
+          </div>
         </div>
       </div>
     </div>

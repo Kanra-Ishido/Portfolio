@@ -6,12 +6,14 @@ import './Works_Contact.css'
 const Works_Contact = () => {
   return (
     <div className='Works_Contact'>
-        <div className='Works_Contact_Body'>
+      <div className='Works_Contact_Bodys'>
+        <div className='Works_Contact_Bodys_Body'>
             <Works />
         </div>
-        <div className='Works_Contact_Body'>
+        <div className='Works_Contact_Bodys_Body'>
             <Contact />
         </div>
+      </div>
     </div>
   )
 }

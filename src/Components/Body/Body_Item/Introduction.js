@@ -13,10 +13,34 @@ const Introduction = () => {
           <img src={img}></img>
         </div>
         <div className='Introduction_Main_Text'>
-          <p>武蔵野大学データサイエンス学部データサイエンス学科3年の石戸莞楽です。</p>
-          <p>大学では主にPythonを用いた機械学習・深層学習やWebアプリケーション開発などを学習しております。</p>
-          <p>また、所属するゼミでは Unreal Engine 5 と GPTAPI を用いて、自然言語の対話形式だけでバーチャルイベントなどで用意されるバーチャル空間を生成する試みを行なっております。</p>
-          <p>さらに、学外活動で学会への参加や、Webアプリケーションの開発大会に参加、参加団体のWebサイトの運営なども行なっております。</p>
+          <div className='Introduction_Main_Text_Item'>
+            <h2>名前</h2>
+            <h3>石戸莞楽</h3>
+          </div>
+          <div className='Introduction_Main_Text_Item'>
+            <h2>モットー</h2>
+            <h3><span>なせば成る、なさねば成らぬ、何事も、成らぬは人のなさぬなりけり</span></h3>
+          </div>
+          <div className='Introduction_Main_Text_Item'>
+            <h2>所属大学</h2>
+            <h3>武蔵野大学　データサイエンス学部　データサイエンス学科3年</h3>
+          </div>
+          <div className='Introduction_Main_Text_Item'>
+            <h2>所属ゼミ</h2>
+            <h3>中村ゼミ</h3>
+          </div>
+          <div className='Introduction_Main_Text_Item'>
+            <h2>研究内容</h2>
+            <h3>自然言語による生成系AIとの対話形式で行うバーチャル空間自動生成に関する研究</h3>
+          </div>
+          <div className='Introduction_Main_Text_Item'>
+            <h2>課外活動</h2>
+            <h3><span>学会</span>，<span>Webアプリケーション開発大会</span>，学生団体のWebサイト運営 etc</h3>
+          </div>
+          <div className='Introduction_Main_Text_Item'>
+            <h2>趣味</h2>
+            <h3>ドライブ，銭湯巡り，Webアプリケーション開発 etc</h3>
+          </div>
         </div>
       </div>
     </div>
