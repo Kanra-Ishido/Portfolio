@@ -81,7 +81,7 @@ const Skill = () => {
             </div>
             <div className='Skill_Main_Items_Item_text'>
               <h2>AWS</h2>
-              <h3>EC2</h3>
+              <h3>EC2，Route 53，RDS</h3>
               <p>主に自作のWebアプリケーションをインターネット上へのデプロイなどで扱います。</p>
             </div>
           </div>
