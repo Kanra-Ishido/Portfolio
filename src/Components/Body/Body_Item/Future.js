@@ -11,7 +11,7 @@ const Future = () => {
       <div className='Future_Main'>
         <div className='Future_Main_Items'>
           <div className='Future_Main_Items_Appeal'>
-            <h1>ITアーキテクト</h1>
+            <h1>プロダクトマネージャー</h1>
           </div>
           <div className='Future_Main_Items_Text'>
             <h3>理由</h3>
